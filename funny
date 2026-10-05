@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML Example Page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>HTML Example Page</h1>
+    <p style="color:rgb(208, 255, 0);">This is where your content goes.</p>
+    <p>Styles are in the style.css file.</p>
+    This is a list:
+    <ol>
+        <li  style="color:rgb(255, 0, 0);">i hate this</li>
+        <li  style="font-family:courier;">i hate this</li>
+        <li>i hate this</li>
+    </ol>
+    <p>Include a link to <a href="markdown-example.md">your markdown page</a>.</p>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Images</h2>
+<p>HTML images are defined with the img tag:</p>
+
+<a href="http://google.ca"><img src="w3schools.jpg"></a>
+
+</body>
+</html>
+<body style="background-color:powderblue;"></body>
+<html>
+<body>
+
+<h2>HTML Tables</h2>
+
+<p>HTML tables start with a table tag.</p>
+<p>Table rows start with a tr tag.</p>
+<p>Table data start with a td tag.</p>
+
+<hr>
+<h2>1 Column:</h2>
+
+<table>
+  <tr>
+    <td>100</td>
+  </tr>
+</table>
+
+<hr>
+<h2>1 Row and 3 Columns:</h2>
+<table>
+  <tr>
+    <td>100</td>
+    <td>200</td>
+    <td>300</td>
+  </tr>
+</table>
+
+<hr>
+<h2>3 Rows and 3 Columns:</h2>
+<table>
+  <tr>
+    <td>100</td>
+    <td>200</td>
+    <td>300</td>
+  </tr>
+  <tr>
+    <td>400</td>
+    <td>500</td>
+    <td>600</td>
+  </tr>
+  <tr>
+    <td>700</td>
+    <td>800</td>
+    <td>900</td>
+  </tr>
+</table>
+
+<hr>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>An unordered HTML list</h2>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>  
+
+</body>
+</html>
+<video width="640" height="360" controls poster="thumbnail.jpg">
+  <source src="video.mp4" type="video/mp4">
+  <source src="video.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
